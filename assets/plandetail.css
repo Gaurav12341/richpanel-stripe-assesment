@@ -1,0 +1,116 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lacquer&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lacquer&family=Marko+One&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid #f00 !important; */
+    font-family: "Poppins", sans-serif;
+
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(31,77,145,255);
+}
+
+.mainbox{
+    width:40vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: white;
+    padding: 20px 20px;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+}
+
+.headlhs{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.headlhs button{
+    position: relative;
+    padding: 3px 5px;
+    margin-left: 10px;
+    bottom: 5px;    
+    border-radius: 5px;
+    background-color: rgb(159, 198, 246);
+    color: rgba(31,77,145,255);
+    border: none;
+    font-weight: bold;
+}
+
+.headrhs{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.headrhs a{
+    text-decoration: none;
+    font-size: smaller;
+    font-weight: 600;
+}
+
+.mainbox .mid{
+    height: 60vh;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mid h4{
+    margin-bottom: 10px;
+}
+
+.mid h2{
+    margin-top: 10px;
+}
+.mid button{
+    height: 2rem;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-color: rgba(31,77,145,255);
+    border-radius: 5px;
+    color: rgba(31,77,145,255);
+    width: max-content;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.mid h6{
+    position: relative;
+    bottom: 8px;
+    color: rgb(154, 153, 153);
+}
+.mid p{
+    background-color: rgb(223, 222, 222);
+    border-radius: 5px;
+    font-size: .9rem;
+    padding: 0 5px;
+}
+
+.mid span{
+    color: black;
+    font-weight: 600;
+}

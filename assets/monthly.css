@@ -1,0 +1,165 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lacquer&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lacquer&family=Marko+One&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    /* outline: 1px solid #f00 !important; */
+
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainbox{
+    width: 60vw;
+    height: 80vh;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    height: 3rem;
+    text-align: center;
+    font-weight: 1800;
+    margin-bottom: 10px;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+    height: 7rem;
+    margin-bottom: 30px;
+}
+
+.row1lhs{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .row1lhsbuttons{
+    height: 4rem;
+    width: 12rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 45px;
+    background-color: rgba(31,77,145,255);
+}
+
+
+.row1lhs button{
+    height: 3rem;
+    width: 5rem;
+    padding: 4px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+    background: rgba(31,77,145,255);
+    color: white;
+}
+
+#month{
+    background: white;
+    color: rgba(31,77,145,255);
+}
+
+
+.row1rhs{
+    width: 70%;
+    border: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+} 
+
+.box1{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(31,77,145,0.8);;
+    color: white;
+    cursor: pointer;
+}
+
+#mobile{
+    background-color: rgba(31,77,145,1);
+}
+
+.row2{
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.row2lhs{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.box{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(97, 96, 96);
+}
+
+#price1,#quality1, #reso1, #dev1, #dev5{
+    color: rgba(31,77,145,255);
+}
+
+.row2rhs{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-weight: 550;
+}
+
+hr{
+    margin-bottom: 10px;
+}
+
+.foot{
+    margin-top: 40px;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.foot button{
+    width: 50%;
+    font-size: large;
+    color: white;
+    background-color: rgba(31,77,145,255);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.foot a{
+    text-decoration: none;
+    color: white;
+}
